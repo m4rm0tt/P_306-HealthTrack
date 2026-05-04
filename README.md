@@ -11,12 +11,12 @@
 - Developers : Esteban
 
 ## Liens
-- App AppSheet : https://www.appsheet.com/start/5299a040-1093-482e-b1c7-b7e54856ed10
-- Google Sheet : https://docs.google.com/spreadsheets/d/1P4cSdMQD1gugXue8zpuucLt8wMUcYIrqN3YEdm35nLU/edit?usp=sharing
+- App AppSheet : https://www.appsheet.com/start/9540f2ae-247a-4156-8bb2-624db3697229
+- Google Sheet : https://docs.google.com/spreadsheets/d/1Gmtmf7e45rIbZ3PS6ZjAUWQbbRALFRWmtgar2p-VHaM/edit?usp=sharing
 
 ## Objectif du Sprint
 L'objectif de se sprint est de finir un sorte de prototype de l'app qui marche
 
 ## Etat actuel
-- Fonctionnalités réalisées : Sport, Nutrition et Bien être
-- Fonctionnalités manquantes : Filtrage poussé
+- FonctionnalitÃ©s rÃ©alisÃ©es : Sport, Nutrition et Bien Ãªtre
+- FonctionnalitÃ©s manquantes : Filtrage poussÃ©
