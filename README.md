@@ -3,7 +3,7 @@
 ## Informations
 - Classe : CIN1B
 - Groupe : Hugo Minh et Esteban
-- Sprint : 1
+- Sprint : 2
 
 ## Membres
 - Product Owner : Hugo
@@ -15,8 +15,8 @@
 - Google Sheet : https://docs.google.com/spreadsheets/d/1P4cSdMQD1gugXue8zpuucLt8wMUcYIrqN3YEdm35nLU/edit?usp=sharing
 
 ## Objectif du Sprint
-L'objectif de se sprint est de finir un sorte de prototype de l'app qui marche
+L'objectif de se sprint est de livrer un mvp (minimum viable product)
 
 ## Etat actuel
-- Fonctionnalités réalisées : Sport, Nutrition et Bien être
-- Fonctionnalités manquantes : Filtrage poussé
+- FonctionnalitÃ©s rÃ©alisÃ©es : Sport, Nutrition et Bien Ãªtre
+- FonctionnalitÃ©s manquantes : Filtrage poussÃ©
