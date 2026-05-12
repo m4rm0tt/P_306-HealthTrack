@@ -23,7 +23,7 @@ Quand considérez-vous une tâche comme terminée ?
 - Les tests ont été réalisés et sont concluants
 - La fonctionnalité est démontrée et validée par le Product Owner
 
-  | Tâche | Responsable | Statut |
+| Tâche | Responsable | Statut |
 |-------|-------------|--------|
 | #14 – voir un résumé de ma semaine  | Hugo | Must |
 | #15 – appuyer sur "+1 verre"  | Hugo | Must |
