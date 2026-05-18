@@ -1,0 +1,48 @@
+# Résultats de tests — HealthTrack Sprint 3
+
+## Période de travail : Lundis 8h00–11h25 (21 avril → 18 mai 2026)
+
+
+### Sprint 1 — Fonctionnalités de base
+
+| # | Test | Étapes | Résultat attendu | Statut |
+|---|------|--------|-----------------|--------|
+| T01 | Ajouter séance sport | Ouvrir Journal Sport > + > remplir formulaire | Nouvelle ligne visible dans la liste | ✅ Oui |
+| T02 | Ajouter repas | Ouvrir Nutrition > + > remplir formulaire | Nouveau repas visible dans la liste | ✅ Oui |
+| T03 | Ajouter entrée bien-être | Ouvrir Bien Être > + > remplir formulaire | Nouvelle entrée visible | ✅ Oui |
+| T04 | Consulter détail | Cliquer sur une entrée existante | Détail de la fiche s'affiche | ✅ Oui |
+| T05 | Modifier une entrée | Ouvrir détail > crayon  > modifier | Données mises à jour | ✅ Oui |
+| T06 | Supprimer une entrée | Ouvrir détail > poubelle  | Entrée supprimée de la liste | ✅ Oui |
+
+---
+
+### Sprint 2 — Objectifs & Indicateurs
+
+| # | Test | Étapes | Résultat attendu | Statut |
+|---|------|--------|-----------------|--------|
+| T07 | Modifier objectif sport | Menu > Mes Objectifs > changer 3 → 5 > Save | ObjectifSport = 5 dans la table | Oui |
+| T08 | Indicateur sport atteint | Saisir 3+ séances cette semaine | StatutSport affiche ✅ | ✅ Oui |
+| T09 | Indicateur sport non atteint | Moins de 3 séances cette semaine | StatutSport affiche ⏳ X/3 | ✅ Oui |
+| T10 | Calcul moyenne sommeil | Saisir plusieurs entrées BienEtre | MoyenneSommeil calculée automatiquement | ✅ Oui |
+| T11 | Calcul moyenne hydratation | Saisir plusieurs entrées BienEtre | MoyenneHydratation calculée automatiquement | ✅ Oui |
+
+---
+
+### Sprint 3 — Dashboard, Actions rapides, Validations
+
+| # | Test | Étapes | Résultat attendu | Statut |
+|---|------|--------|-----------------|--------|
+| T12 | Dashboard résumé | Ouvrir Tableau de Bord | Affiche sport/sommeil/hydratation/humeur de la semaine | ✅ Oui |
+| T13 | Bouton +1 verre | Ouvrir entrée BienEtre > cliquer "+1 Verre" | Hydratation +1 sans formulaire | ✅ Oui |
+| T14 | Limite +1 verre | Hydratation = 12 > cliquer "+1 Verre" | Reste à 12, ne dépasse pas | ✅ Oui |
+| T15 | Séance rapide | Vue Sport > bouton "Séance rapide" | Nouvelle entrée Course/30min/intensité 3/aujourd'hui | ✅ Oui |
+| T16 | Validation hydratation max | Saisir hydratation = 15 | Message : "Hydratation doit être entre 0 et 12 verres" | ✅ Oui |
+| T17 | Validation hydratation min | Saisir hydratation = -1 | Message d'erreur s'affiche | ✅ Oui |
+| T18 | Doublon BienEtre | Créer 2 entrées BienEtre avec la même date | Message : "Tu as déjà une entrée Bien-être pour aujourd'hui !" | ✅ Oui |
+| T19 | Score 100/100 | Sommeil ≥ 7 + Hydratation ≥ 8 + Sport saisi | ScoreJour = 100 | ✅ Oui |
+| T20 | Score partiel | Seulement sommeil ≥ 7, pas de sport ni eau | ScoreJour = 30 | ✅ Oui |
+| T21 | Badge  Top journée | ScoreJour ≥ 80 + Humeur > 2 | Badge visible sur l'entrée | ✅ Oui |
+| T22 | Badge ! Journée difficile | Humeur ≤ 2 | Badge ! visible sur l'entrée | ✅ Oui |
+| T23 | Dupliquer repas | Ouvrir repas > bouton "Dupliquer repas" | Nouveau repas créé avec même Moment/Catégorie, Date = aujourd'hui | ✅ Oui |
+
+
