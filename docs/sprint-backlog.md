@@ -25,12 +25,12 @@ Quand considérez-vous une tâche comme terminée ?
 
 | Tâche | Responsable | Statut |
 |-------|-------------|--------|
-| #14 – voir un résumé de ma semaine  | Hugo | Must |
-| #15 – appuyer sur "+1 verre"  | Hugo | Must |
+| #14 – voir un résumé de ma semaine  | Hugo | DONE |
+| #15 – appuyer sur "+1 verre"  | Hugo | DONE |
 | #16 – lancer une "Séance rapide" | Hugo | DONE |
 | #17 – être bloqué si je saisis une valeur absurde | Hugo | DONE |
-| #18 – voir mon Score du jour calculé automatiquement | Hugo | Should |
-| #19 – je veux voir des badges 🔥 / ⚠️ | Hugo | Could |
+| #18 – voir mon Score du jour calculé automatiquement | Hugo | DONE |
+| #19 – je veux voir des badges 🔥 / ⚠️ | Hugo | DONE |
 
 ## Definition of Done
 Quand considérez-vous une tâche comme terminée ?
